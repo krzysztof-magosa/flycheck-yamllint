@@ -5,7 +5,7 @@ Flycheck integration for [YAMLLint](https://github.com/adrienverge/yamllint).
 # Install
 ## use-package (recommended)
 Add this code into your Emacs configuration:
-```
+```elisp
 (use-package flycheck-yamllint
   :ensure t
   :defer t
@@ -19,7 +19,7 @@ Add this code into your Emacs configuration:
 * Press `M-x`, type package-install
 * Specify `flycheck-yamllint`
 * Add this code into your Emacs configuration:
-```
+```elisp
 (require 'flycheck-yamllint)
 (eval-after-load 'flycheck
   '(add-hook 'flycheck-mode-hook 'flycheck-yamllint-setup))
@@ -29,7 +29,7 @@ Add this code into your Emacs configuration:
 * Download `flycheck-yamllint.el`
 * Put it in some directory like `~/.emacs.d/local/`
 * Add this code into your Emacs configuration:
-```
+```elisp
 (add-to-list 'load-path
              (expand-file-name "local" user-emacs-directory))
 

@@ -3,8 +3,27 @@
 Flycheck integration for [YAMLLint](https://github.com/adrienverge/yamllint).
 
 # Install
+## use-package (recommended)
+Add this code into your Emacs configuration:
+```
+(use-package flycheck-yamllint
+  :ensure t
+  :defer t
+  :init
+  (progn
+    (eval-after-load 'flycheck
+      '(add-hook 'flycheck-mode-hook 'flycheck-yamllint-setup))))
+```
+
 ## MELPA
-Not available yet.
+* Press `M-x`, type package-install
+* Specify `flycheck-yamllint`
+* Add this code into your Emacs configuration:
+```
+(require 'flycheck-yamllint)
+(eval-after-load 'flycheck
+  '(add-hook 'flycheck-mode-hook 'flycheck-yamllint-setup))
+```
 
 ## Manual
 * Download `flycheck-yamllint.el`

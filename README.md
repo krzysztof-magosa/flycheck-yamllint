@@ -1,5 +1,6 @@
 # Flycheck YAMLLint integration
 [![MELPA](https://melpa.org/packages/flycheck-yamllint-badge.svg)](https://melpa.org/#/flycheck-yamllint)
+[![MELPA Stable](https://stable.melpa.org/packages/flycheck-yamllint-badge.svg)](https://stable.melpa.org/#/flycheck-yamllint)
 
 Flycheck integration for [YAMLLint](https://github.com/adrienverge/yamllint).
 

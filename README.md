@@ -1,8 +1,12 @@
-# Flycheck YAMLLint integration
+# Flycheck YAMLLint integration [NOT MAINTAINED]
 [![MELPA](https://melpa.org/packages/flycheck-yamllint-badge.svg)](https://melpa.org/#/flycheck-yamllint)
 [![MELPA Stable](https://stable.melpa.org/packages/flycheck-yamllint-badge.svg)](https://stable.melpa.org/#/flycheck-yamllint)
 
 Flycheck integration for [YAMLLint](https://github.com/adrienverge/yamllint).
+
+# Information
+I have [contributed](https://github.com/flycheck/flycheck/pull/1640) my plugin to base Flycheck
+project, so installation of this plugin is no longer required.
 
 # Install
 ## use-package (recommended)
